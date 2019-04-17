@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron"
+  },
+  "author": "Sidney Munoz",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.4"
+  },
+  "dependencies": {
+    "artyom.js": "^1.0.6",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "lifx.js": "^0.1.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.1",
+    "node-lifx-lan": "^0.3.1",
+    "node.js": "0.0.0",
+    "voice-speech-recognition": "^1.1.2"
+  }
+}

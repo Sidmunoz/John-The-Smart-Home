@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>John the virtual assistant</title>
+
+    <script type="text/javascript" src="artyom.window.js"></script>
+    <script type="text/javascript" src="artyom.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+
+  </head>
+  <body>
+      
+      <!-- Light control links -->
+    <a href="/home/lighton" id="lighton">Light On</a>
+    <a href="/home/lightoff" id="lightoff">Light Off</a>
+    <a href="/home/lightdown" id="lightdown">Light Down</a>
+    <a href="/home/whitelight" id="whitelight">White Light</a>
+    <a href="/home/timer">Timer</a>
+
+
+    <button onclick="speak();">Press to manually speak</button>
+
+    
+
+    <!-- Timer display --> 
+    <div>Random timer label!</div>
+      <h1 id="time" onclick="startTimer()">15:00</h1>
+      <button type="button" onclick="startTimer()" id="startTimer">button</button>
+    </div>
+
+  </body>
+
+  <!-- Iniciates artyom -->
+  <script type="text/javascript">
+    speak();
+  </script>
+
+</html>
+
+<!--c9bb156117f4774cb70942c95a4fe8e6eeb3c5f7e92ecf88f1d043f412dbac1d lifxroomlight-->  
